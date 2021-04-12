@@ -1,6 +1,7 @@
 package Domain.Auth.UseCase.Login.LoginAsClient;
 
+import Domain.Auth.BusinessObject.Credentials;
+
 public class Request {
-    public String userName;
-    public String password;
+    public Credentials credentials;
 }
